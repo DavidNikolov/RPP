@@ -80,16 +80,16 @@ h1 {
   color: azure;
 }
 
-.image1 img{
+/*.image1 img{
   height: auto;
   width: 610px;
-  right: 50px;
+  right: 70px;
   position:relative;
   margin-left: 50px;
   margin-top: 40px;
 }
-
-.image2{
+*/
+.image2{ /*
   transform: scale(0.67);
   float: right;
   margin-right: -130px;
@@ -98,22 +98,31 @@ h1 {
   */
 }
 
-
-.container1{
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 20px;
-  width:860px;
+.container1{ 
+  display:flex;
+  /* align-items: center; */
+  align-items: flex-start;
+  margin-top: 20px;
 } 
 
-.content1{
-  width: 50%;
-  float: left;
+.container1 img{
+  height: auto;
+  width: 650px;
+  right: 70px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.content1 p{
+  width: 80%;
+  text-align: center;
+  float: right;
   font-family:'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 23px;
   background-color: #ced4da;
     color: #555; 
     padding: 20px;
+  /* margin-right: 100px; */
 }
 
 .content2{
