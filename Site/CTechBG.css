@@ -1,0 +1,73 @@
+.elementsCTB h2{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 1cm;
+    font-family:'Open Sans', sans-serif;
+}
+
+/*.containe{
+    display: flex;
+    justify-content: space-between;
+} 
+can be used for 2 elements next to eachother*/ 
+.instaHEADER{
+    text-align: right;
+    margin-right: 19%;
+    font-size: 0.8cm;
+    text-decoration: underline;
+    color: #555;
+    font-family:'Open Sans', sans-serif;
+}
+
+.insta{
+    text-align: right;
+    margin-top: 0.5cm;
+    margin-right: 6.4cm;
+    font-size: 1cm;
+}
+
+.insta-link{
+    text-decoration: none; /* Remove underline from the link */
+    color: #555; 
+    display: inline-block;
+    transition: color 0.3s, font-size 0.3s;
+    font-family:'Open Sans', sans-serif;
+}
+
+.insta-link:hover {
+    color: #5555557d;
+    transform: scale(1.1); /
+  }
+
+.numHEADER{
+    margin-top: -4.3cm;
+    text-align: left;
+    margin-left: 15%;
+    font-size: 0.8cm;
+    text-decoration: underline;
+    color: #555;
+    font-family:'Open Sans', sans-serif;
+}
+
+.numba{
+    text-align: left;
+    margin-top: 0.5cm;
+    margin-left: 5.8cm;
+    font-size: 1cm;
+    color: #555;
+}
+
+.elementsCTB hr{
+   height: 0.1cm; 
+   background-color:  #415A77;
+}
+
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
