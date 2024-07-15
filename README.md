@@ -1,2 +1,2 @@
 # RPP
-Files and site for the RPP project in school
+The site for RPP project in 11th grade
